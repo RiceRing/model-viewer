@@ -1,0 +1,19 @@
+commit c5ef89af258b9991e70522132b444dc2dafc5114
+Author: sun765 <44676379+sun765@users.noreply.github.com>
+Date:   Wed Jul 1 12:17:18 2020 -0400
+
+    replace directly loaded hdr with prefiltered hdr (#1319)
+    
+    * change babylon to 4.20 and updated package lock
+    
+    * prefilter hdr texture on load
+    
+    * correct the rotation for skybox and environment for 4.20
+    
+    * removed useless properties
+    
+    * update babylon's goldens
+    
+    * fixed transformation problem by using computing accurate FOV
+    
+    * updaed goldens, set skybox' infinite distance to be true
